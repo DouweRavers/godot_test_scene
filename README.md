@@ -15,3 +15,5 @@ Currently this would mean you have to switch to this scene or search for it in t
 scene" tab. However with this simple addon allows you to just redirect the "run current scene" to the test
 scene. So you can work on just the character in the editor but run it with a simple test environment
 around it.
+
+![A example image of the situation as described above.](https://github.com/DouweRavers/godot_scene_reroute/blob/main/.res/example-scene.png?raw=true)
