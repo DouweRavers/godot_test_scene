@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbjvqwv7nf7e"]
+
+[ext_resource type="Texture2D" uid="uid://b4mykrkcslypl" path="res://addons/godot_test_scene/PlayTestScene.svg" id="1_bgu6y"]
+
+[node name="TestSceneButton" type="TestSceneButton"]
+offset_right = 8.0
+offset_bottom = 8.0
+icon = ExtResource("1_bgu6y")
+flat = true
