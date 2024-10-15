@@ -1,0 +1,9 @@
+[configuration]
+
+entry_symbol = "test_scene_library_init"
+compatibility_minimum = "4.1"
+reloadable = true
+
+[libraries]
+
+windows.editor.x86_64 = "res://addons/godot_test_scene/cpp/bin/libtestscene.windows.editor.x86_64.dll"
