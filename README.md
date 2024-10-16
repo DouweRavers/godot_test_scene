@@ -14,7 +14,7 @@ When pressing the "run test scene" button the first time on a scene it will open
 to assign the test scene. This can be any scene, but its intention is that the current scene is a child
 of the test scene or the test scene is an inherited scene from the current.
 
-![A screenschot of the godot editor with an additional play button and pointers to relevant areas](https://github.com/DouweRavers/godot_scene_reroute/blob/main/res/test_scene_explain_1.png?raw=true)
+![A screenschot of the godot editor with an additional play button and pointers to relevant areas](https://github.com/DouweRavers/godot_scene_reroute/blob/main/.res/test_scene_explain_1.png?raw=true)
 
 When pressing the "run test scene" button when the test scene is set up it will just start this test
 scene instead of the current one. However you will see that it appears if the "run custom scene" is 
@@ -22,7 +22,7 @@ pressed. That is just because in under the hood it actually is. Also you can see
 path is saved as meta data on the root node of the current scene. If you want to remove the test scene
 just remove the meta data label. 
 
-![A screenschot of the godot editor with an additional play button and pointers to relevant areas](https://github.com/DouweRavers/godot_scene_reroute/blob/main/res/test_scene_explain_2.png?raw=true)
+![A screenschot of the godot editor with an additional play button and pointers to relevant areas](https://github.com/DouweRavers/godot_scene_reroute/blob/main/.res/test_scene_explain_2.png?raw=true)
 
 If the path of the test scene is changed, it will be removed on pressing "run test scene" and you will
 be prompted point to the new location.
