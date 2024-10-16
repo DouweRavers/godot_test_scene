@@ -1,6 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://dbjvqwv7nf7e"]
 
-[ext_resource type="Texture2D" uid="uid://b4mykrkcslypl" path="res://addons/godot_test_scene/PlayTestScene.svg" id="1_bgu6y"]
+[ext_resource type="Texture2D" uid="uid://b4mykrkcslypl" path="res://addons/godot_test_scene/test_scene_icon.svg" id="1_bgu6y"]
+
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k6kmm"]
 bg_color = Color(0.239216, 0.258824, 0.290196, 1)
