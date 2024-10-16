@@ -6,4 +6,12 @@ reloadable = true
 
 [libraries]
 
+macos.editor = "res://addons/godot_test_scene/cpp/bin/libtestscene.macos.editor.framework"
+ios.editor = "res://addons/godot_test_scene/cpp/bin/libtestscene.ios.editor.xcframework"
+windows.editor.x86_32 = "res://addons/godot_test_scene/cpp/bin/libtestscene.windows.editor.x86_32.dll"
 windows.editor.x86_64 = "res://addons/godot_test_scene/cpp/bin/libtestscene.windows.editor.x86_64.dll"
+linux.editor.x86_64 = "res://addons/godot_test_scene/cpp/bin/libtestscene.linux.editor.x86_64.so"
+linux.editor.arm64 = "res://addons/godot_test_scene/cpp/bin/libtestscene.linux.editor.arm64.so"
+linux.editor.rv64 = "res://addons/godot_test_scene/cpp/bin/libtestscene.linux.editor.rv64.so"
+android.editor.x86_64 = "res://addons/godot_test_scene/cpp/bin/libtestscene.android.editor.x86_64.so"
+android.editor.arm64 = "res://addons/godot_test_scene/cpp/bin/libtestscene.android.editor.arm64.so"
