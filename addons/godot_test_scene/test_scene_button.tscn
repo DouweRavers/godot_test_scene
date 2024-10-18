@@ -1,7 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://dbjvqwv7nf7e"]
 
-[ext_resource type="Texture2D" uid="uid://b4mykrkcslypl" path="res://addons/godot_test_scene/test_scene_icon.svg" id="1_bgu6y"]
-
+[ext_resource type="Texture2D" uid="uid://njcc6c8v1kun" path="res://addons/godot_test_scene/icon.svg" id="1_aa2ip"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k6kmm"]
 bg_color = Color(0.239216, 0.258824, 0.290196, 1)
@@ -21,4 +20,4 @@ theme_override_colors/icon_pressed_color = Color(0.435294, 0.717647, 0.960784, 1
 theme_override_styles/hover = SubResource("StyleBoxFlat_k6kmm")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_opnre")
 theme_override_styles/normal = SubResource("StyleBoxEmpty_ocjw8")
-icon = ExtResource("1_bgu6y")
+icon = ExtResource("1_aa2ip")
