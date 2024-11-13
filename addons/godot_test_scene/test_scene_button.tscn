@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://dbjvqwv7nf7e"]
+[gd_scene load_steps=6 format=3 uid="uid://dbjvqwv7nf7e"]
 
 [ext_resource type="Texture2D" uid="uid://njcc6c8v1kun" path="res://addons/godot_test_scene/icon.svg" id="1_aa2ip"]
+[ext_resource type="Script" path="res://addons/godot_test_scene/test_scene_button.gd" id="2_78f3v"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k6kmm"]
 bg_color = Color(0.239216, 0.258824, 0.290196, 1)
@@ -9,10 +10,10 @@ bg_color = Color(0.239216, 0.258824, 0.290196, 1)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ocjw8"]
 
-[node name="TestSceneButton" type="TestSceneButton"]
+[node name="TestSceneButton" type="Button"]
 physics_interpolation_mode = 0
-offset_right = 8.0
-offset_bottom = 8.0
+offset_right = 16.0
+offset_bottom = 16.0
 tooltip_text = "Run Test Scene
 Play the linked test scene."
 focus_mode = 0
@@ -21,3 +22,6 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_k6kmm")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_opnre")
 theme_override_styles/normal = SubResource("StyleBoxEmpty_ocjw8")
 icon = ExtResource("1_aa2ip")
+script = ExtResource("2_78f3v")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
