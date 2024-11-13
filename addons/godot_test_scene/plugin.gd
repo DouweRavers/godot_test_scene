@@ -1,7 +1,7 @@
 @tool
 extends EditorPlugin
 
-var play_test_button:TestSceneButton
+var play_test_button:Button
 
 func _enter_tree() -> void:
 	add_play_test_scene_button()
