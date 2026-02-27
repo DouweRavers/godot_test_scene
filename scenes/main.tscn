@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://dn6sojmxp5x0p"]
+[gd_scene format=3 uid="uid://dn6sojmxp5x0p"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2y71i"]
 bg_color = Color(0.278991, 0.672811, 0.65258, 1)
@@ -6,7 +6,7 @@ bg_color = Color(0.278991, 0.672811, 0.65258, 1)
 [sub_resource type="LabelSettings" id="LabelSettings_5efk7"]
 font_size = 80
 
-[node name="Main" type="Panel"]
+[node name="Main" type="Panel" unique_id=1989793341]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -15,7 +15,7 @@ grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_2y71i")
 metadata/test_scene = "res://test_scenes/test.tscn"
 
-[node name="Label" type="Label" parent="."]
+[node name="Label" type="Label" parent="." unique_id=869114432]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
